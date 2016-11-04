@@ -1,0 +1,275 @@
+/* CSS before, during, after */
+
+
+body {
+  margin:0;
+}
+
+html { 
+  background-image: url('img/kurk.png');
+ }
+
+/* begin menu */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #90bece;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  font-family: 'Proza Libre', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+ul.topnav li a:hover {color: #cb092a;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/* eind menu */
+
+div#wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 7px;
+  font-family: "Proza Libre";
+}
+
+/* begin content */
+
+div#logo {
+  float: center;
+  width: 100% ;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#logo.logo-begin {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#logo a.begin {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+
+#logo a.begin img {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  float: center;
+  max-width: 100%;
+  height: auto;
+}
+
+
+div#statistieken {
+  float: center;
+  width: 100% ;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#statistieken.stat-personen {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#statistieken a.persoon {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+
+#statistieken a.persoon img {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  float: center;
+  max-width: 100%;
+  height: auto;
+}
+
+
+div#content {
+  float: center;
+  width: 100% ;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#content.content-personen {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#content a.persoon {
+  width: 33%;
+  float: left;
+  display: inline-block;
+}
+
+#content a.persoon img {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  float: center;
+  max-width: 100%;
+  height: auto;
+
+}
+
+#content a.persoon img:hover {
+    opacity: 0.5;
+}
+
+div#confess {
+  float: center;
+  width: 100% ;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#confess.confess-personen {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#confess a.persoon {
+  width: 33%;
+  float: center;
+  display: inline-block;
+}
+
+#confess a.persoon img {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  float: center;
+  max-width: 100%;
+  height: auto;
+}
+
+#confess a.persoon img:hover {
+    opacity: 0.5;
+}
+
+h1 {  
+	color: #ffffff;
+  border:19px 19px solid: #cb092a;
+  padding: 6px;
+  background-color: #cb092a;
+  font-size: 22px;
+	font-weight: normal;
+	text-align: left;
+	font-family: 'Proza Libre';
+	margin-bottom: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+h2 { 
+	color: #434547;
+  border:15px 10px solid: #ffffff;
+  padding: 5px;
+  background-color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Proza Libre';
+  margin-bottom: 0.2px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+h2:hover {
+  color: #ffffff;
+  border:10px 10px solid: #434547;
+  padding: 5px;
+  background-color: #434547;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Proza Libre';
+  margin-bottom: 0.2px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+h3 { 
+  color: #434547;
+  border:10px 10px solid: #ffffff;
+  padding: 5px;
+  background-color: #ffffff;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Proza Libre';
+  margin-bottom: 0.2px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+p { 
+	color: #434547;
+  border:10px 10px solid: #ffffff;
+  padding: 5px;
+  background-color: #ffffff;
+  font-size: 13px;
+	font-weight: normal;
+	text-align: left;
+	font-family: 'Proza Libre';
+	margin-bottom: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* einde content */
