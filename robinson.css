@@ -138,7 +138,6 @@ div#content {
   float: center;
   width: 100% ;
   height: auto;
-  padding: 10px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -149,15 +148,14 @@ div#content {
 }
 
 #content a.persoon {
-  width: 33%;
-  float: left;
+  width: 31.5%;
+  float: center;
   display: inline-block;
 }
 
 #content a.persoon img {
   text-align: center;
   display: inline-block;
-  padding: 5px;
   float: center;
   max-width: 100%;
   height: auto;
@@ -167,6 +165,7 @@ div#content {
 #content a.persoon img:hover {
     opacity: 0.5;
 }
+
 
 div#confess {
   float: center;
