@@ -100,6 +100,7 @@ div#wrapper {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 7px;
+  padding-bottom: 15px;
   font-family: "Proza Libre";
 }
 
@@ -229,6 +230,35 @@ div#confess {
 #confess a.persoon img:hover {
     opacity: 1;
 }
+
+div#gestemd {
+  float: center;
+  width: 100% ;
+  height: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#gestemd.gestemd-personen {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#gestemd a.persoon {
+  width: 31.5%;
+  float: center;
+  display: inline-block;
+}
+
+#gestemd a.persoon img {
+  text-align: center;
+  display: inline-block;
+  float: center;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+
 
 h1 {  
 	color: #ffffff;
