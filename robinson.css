@@ -25,7 +25,7 @@ html {
   background: #ffffff;
 }
 .intro.image-background {
-  background: url('img/achter2.png') center center no-repeat;
+  background: url('img/achtergrond.png') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -320,6 +320,34 @@ div#pop2 {
   border-radius: 7px;
 }
 
+div#score {
+  float: center;
+  width: 100% ;
+  height: auto;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#score.score-personen {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#score a.persoon {
+  width: 80%;
+  float: center;
+  display: inline-block;
+}
+
+#score a.persoon img {
+  text-align: center;
+  display: inline-block;
+  float: center;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
 /* begin tekst */
 
 h1 {  
@@ -383,19 +411,31 @@ h3 {
 }
 
 h4 {  
-  color: #cb092a;
+  color: #434547;
   padding: 6px;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: normal;
-  padding-left: 20px;
-  text-align: left;
-  font-family: 'Proza Libre';
-  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Hanalei Fill';
+  margin-bottom: 10px;
   margin-top: 20px;
   margin-left: 8px;
   margin-right: 8px;
 }
 
+h5 {  
+  color: #434547;
+  border:19px 19px solid: #ffffff;
+  padding: 6px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Proza Libre';
+  margin-bottom: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+} 
 p { 
   color: #434547;
   border:10px 10px solid: #ffffff;
