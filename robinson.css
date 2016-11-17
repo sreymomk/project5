@@ -212,7 +212,7 @@ div#confess {
 }
 
 #confess a.persoon {
-  width: 31.5%;
+  width: 31%;
   float: center;
   display: inline-block;
 }
@@ -245,7 +245,7 @@ div#gestemd {
 }
 
 #gestemd a.persoon {
-  width: 31.5%;
+  width: 31%;
   float: center;
   display: inline-block;
 }
@@ -286,6 +286,7 @@ div#pop {
   float: center;
   max-width: 100%;
   height: auto;
+  border-radius: 7px;
 }
 
 
