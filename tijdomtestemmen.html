@@ -8,21 +8,41 @@
 </head>
 <body>
 
+<!-- menu -->
+    
+<ul class="topnav" id="myTopnav">
+  <li><a href="index.html"><img src="img/bleu.png" alt=""></a></li>
+  <li><a href="statistieken.html">STATISTIEKEN</a></li>
+  <li><a href="confessions.html">CONFESSIONS</a></li>
+  <li><a href="fragmenten.html">FRAGMENTEN</a></li>
+  <li><a href="stemmen.html">STEMMEN</a></li>
+  <li><a href="spelregels.html">SPELREGELS</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
 
-<!-- intro -->
 
-<section id="intro" class="intro image-background">
-  <div class="content">
-    <div class="container clearfix">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-12">
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
-<div id="logo" class="logo-begin">
+<!-- content -->
+
+<div id="wrapper">
+
+<div id="pop" class="pop-begin">
 
 <a class="begin"><img src="img/wieverlaat.png" alt="" width="500" height="300"></a>
-<a href="statistieken.html" class="begin"><img src="img/lala.png" alt="" width="500" height="100"></a>
+<a href="statistieken.html" class="begin"><img src="img/bekijkstat.png" alt="" width="500" height="100"></a>
 <a href="stemmen.html" class="begin"><img src="img/meteen.png" alt="" width="500" height="100"></a>
-</div></div></div></div></div>
-</section>
+</div></div>
 
 </body>

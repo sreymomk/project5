@@ -259,6 +259,35 @@ div#gestemd {
   margin-bottom: 0px;
 }
 
+div#pop {
+  float: center;
+  width: 100% ;
+  height: auto;
+  padding-top: 75px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#pop.pop-begin {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#pop a.begin {
+  width: 77%;
+  float: center;
+  display: inline-block;
+}
+
+#pop a.begin img {
+  text-align: center;
+  display: inline-block;
+  float: center;
+  max-width: 100%;
+  height: auto;
+}
+
 /* begin tekst */
 
 h1 {  
